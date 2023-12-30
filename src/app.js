@@ -26,6 +26,7 @@ server.set("view engine","hbs");
 const partialPath = path.join(__dirname,"../views/partials");
 hbs.registerPartials(partialPath);
 
+//Routes for interface
 server.get("/",(req, res)=>{  
         // console.log("home route")
         // console.log(req.query); // http://localhost:3000/?title=apple
