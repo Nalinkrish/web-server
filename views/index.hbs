@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/css/style.css"> 
+</head>
+<body>
+    <div class="container">
+
+       <div>
+         {{>header}}  
+        <form action="">
+            <input type="text" placeholder="location">
+           <input type="Submit" value="Search">
+
+        </form>
+        <p id="message1"></p>
+
+       </div>
+
+    {{>footer}}  
+    </div>
+    {{!-- syntex for footer.hbs  --}}
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+{{!-- 2.23 --}}
+
+{{!-- bring hbs from NPM and open a new folder call views
+and then add a new file index.hbs like a html file --}}
+
+{{!-- {{use title and write HTML code is app.js}} --}}
+
+{{!-- use npm i nodemon -}} instal globally
+
+{{!-- now use nodemon in the terminal instead of node --}}
+
+{{!-- nodemon src/app.js -e js,hbs  to update all files  --}}

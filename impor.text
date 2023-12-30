@@ -1,0 +1,30 @@
+#step 1
+initalize the npm - npm init -y
+it will create the Json file
+
+#what is server
+Physical server - computer  (only receive 1s and 0s)
+software server - operating system (convert that 1s and 0s to make more readable)
+
+
+
+#how to send diffent urls to crete page
+example
+
+//cafekumbuk.com 
+//cafekumbuk.com/about
+//cafekumbuk.com/menu
+
+Express js helps to create the above
+
+npm i express.js
+
+step 2
+
+#bring the express file
+
+
+
+
+
+

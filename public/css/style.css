@@ -1,0 +1,72 @@
+/* global style */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: lightgray;
+    margin:20px 0;
+}
+
+/* main style */
+
+.container{
+display: flex;
+flex-direction: column;
+height: 100vh;
+align-items: center;
+max-width: 650px;
+margin: auto;
+justify-content: space-between;
+}
+
+/* margin auto to center */
+
+.nav a{
+ text-decoration: none;
+ padding-right: 5px;
+}
+
+/* go to this url and check http://localhost:3000/css/style.css */
+
+/* footer section */
+
+
+footer p{
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin: 0 0 10px 0;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form input{
+    padding: 5px 10px;
+}
+
+/* another way of selecting an input element */
+input[type="submit"]{
+    border: none;
+    padding: 8px 10px;
+} 
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
