@@ -31,7 +31,7 @@ server.get("/",(req, res)=>{
         // console.log("home route")
         // console.log(req.query); // http://localhost:3000/?title=apple
         // res.render('index',{title: req.query.title,author:"beyond training"});
-        res.render("index", {title: "weather-app",author:"beyond training"});   
+        res.render("index", {title: "Forecast",author:"beyond training"});   
 });  
 
 // this is after creating hbs index file
