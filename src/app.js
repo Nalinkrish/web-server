@@ -74,8 +74,14 @@ server.get("/weather",(req, res)=>{
 // run in the terminal node src/app.js
 // use CRTL +C to stop running in the terminal
 
+var port = process.env.PORT;
 
-server.listen(3000);// listen to any network connecting activities on your computer
+if(!port){
+        port =3000;
+}
+
+
+server.listen(port);// listen to any network connecting activities on your computer
 // 3000 is the port
 
 
@@ -112,6 +118,8 @@ we haven'told the express server where the public path is */
 // its called dynamic files
 
 //17
+
+
 
 
 
